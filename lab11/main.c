@@ -11,3 +11,6 @@ int main() {
     printf("Perimeter is %f\n", perimeter);
     return 0;
 }
+
+//Считываение радиусов сделать в main, обращаться
+//к радиусам также с main, убрать структуру в myheader.c (та что снизу)
