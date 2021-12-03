@@ -25,7 +25,7 @@ union mp3 {
 };
 
 void main() {
-    //Task 1 (отобразить: водоэмульсионная)
+    //Task 1 (отобразить: водоэмульсионная) //поменять названия переменных
     enum Paints a, b, c, d, e;
     a = Aquarelle;
     b = Oil;
@@ -38,7 +38,7 @@ void main() {
     //printf("d = %d\n", d);
     //printf("e = %d\n", e);
 
-    //Task 2
+    //Task 2 //Переписать структуру (и формулу) открезка
     printf("\n");
     struct Otrezok l;
     int dlina;
@@ -48,7 +48,7 @@ void main() {
     dlina = l.y - l.x;
     printf("%d\n", dlina);
 
-    //Task 3
+    //Task 3 //Починить вывод на русском
     printf("\n");
     union mp3 t;
     scanf("%x", &t.i);
