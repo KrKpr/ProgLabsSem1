@@ -3,11 +3,11 @@
 int main(void) {
     //Task 2
     int price, tax, len, scam;
-    printf("Абонентская плата за минуту разговора: \n");
+    printf("Subscription fee per minute of conversation: \n");
     scanf("%d", &price);
-    printf("Абонентская плата за минуту сверх лимита: \n");
+    printf("Subscription fee per minute over the limit: \n");
     scanf("%d", &tax);
-    printf("Продолжительность разговоров: \n");
+    printf("Call duration: \n");
     scanf("%d", &len);
 
     if (len > 499) {
@@ -16,20 +16,20 @@ int main(void) {
         scam = len * price;
     }
     printf("%\n");
-    printf("Итоговая стоимость: %d\n", scam);
+    printf("The total cost: %d\n", scam);
 
     //Task 5
     printf("%\n");
     double s, p, m;
-    printf("Введите, сколько месяцев будет храниться вклад: \n");
+    printf("Enter how many months the deposit will be kept: \n");
     scanf("%lf", &m);
-    printf("Введите годовую процентную ставку: \n");
+    printf("Enter the annual interest rate: \n");
     scanf("%lf", &p);
-    printf("Введите начальную сумму на вашем счёте: \n");
+    printf("Enter the initial amount on your account: \n");
     scanf("%lf", &s);
 
     for (int i = 1; i < m + 1; i++) {
         s += s * (p / 100);
-        printf("После %d месяца у вас будет %f руб.\n", i, s);
+        printf("After %d month you'll have %f rubles\n", i, s);
     }
 }
