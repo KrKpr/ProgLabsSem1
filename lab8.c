@@ -104,3 +104,5 @@ int main(void) {
     free(s1);
     free(s2);
 }
+
+//Починить русский
