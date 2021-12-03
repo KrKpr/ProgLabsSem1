@@ -51,9 +51,9 @@ int main(void) {
         }
 
     if (flag == 1) {
-        puts("Строки не совпадают");
+        puts("The strings don't match");
     } else {
-        puts("Строки совпадают");
+        puts("Strings match");
     }
     free(str3);
     free(str4);
@@ -76,7 +76,7 @@ int main(void) {
     scanf("%s", scd);
     for (p = fst; *p; ++p) {
         if (strchr(scd, *p)) {
-            printf("Найден: %c\n", *p);
+            printf("Found: %c\n", *p);
         }
     }
     free(fst);
@@ -104,5 +104,3 @@ int main(void) {
     free(s1);
     free(s2);
 }
-
-//Починить русский
