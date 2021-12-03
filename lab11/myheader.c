@@ -17,6 +17,7 @@ float PerimeterFunc(struct data ring) {
     return s;
 }
 
+//УДОЛИТЬ!!!1!
 struct data create_struct(struct data ring) {
     printf("Input larger and smaller radii\n");
     scanf("%f %f", &ring.largerRadius, &ring.smallerRadius);
