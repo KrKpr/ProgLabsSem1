@@ -6,13 +6,8 @@ struct data {
     float smallerRadius;
 };
 
-float SquareFunc(struct data ring);
+extern float SquareFunc(struct data ring);
 
-float PerimeterFunc(struct data ring);
-
-//УДОЛИТЬ!!!1!
-struct data create_struct(struct data ring);
+extern float PerimeterFunc(struct data ring);
 
 #endif
-
-//Через экстерны указать функции
